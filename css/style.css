@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Courgette', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-section{
+    background-attachment: fixed;
+    background-blend-mode: color;
+    background-image: url(../images/italy-1587287_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000075;
+}
+.header-section .navbar{
+    width: 1300px!important;
+    margin: auto;
+}
+.navbar-brand{display: inline-block;}
+.navbar-brand h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar-brand span{font-size: 22px;font-weight: 100;display: block;}
+.navbar-nav{}
+.nav-item{}
+.nav-item a{
+    color: #fff!important;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px 20px!important;
+    transition: .5s all ease;
+    border-radius: 30px;
+}
+.nav-item a:hover{
+ 
+border: 2px solid #ffffff;
+}
+.last-menu{
+
+border: 2px solid white!important;
+}
+.last-menu:hover{
+    
+color: #e41649!important;
+    
+background: #fff;
+    
+border: 2px solid #e41649!important;
+}
+.header-banner{
+    flex-basis: 100%;
+    padding: 220px  0;
+    text-align: center;
+    max-width: 100%;
+}
+.header-banner h3{font-style: italic;color: #fff;font-size: 1.8em;letter-spacing: 1.2px;}
+.header-banner span{
+    background: red;
+    width: 5em;
+    height: 3px;
+    display: block;
+    margin: 20px auto;
+}
+.header-banner h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.btn-custom{
+    padding: 11px 30px;
+    background: #E41649;
+    color: #fff;
+    border: 1px solid #ab0830;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* header banner part end  */
+.carousel{}
+
+
+
+/* quote section start */
+.quote-section{
+    padding: 50px 0;
+    background: #F2F2F2;
+}
+.quote-content{
+    text-align: center;
+}
+.quote-content p{
+    font-size: 24px;
+}
+.quote-content span{}
+/* quote section end */
+/* event section start */
+.event-section{
+    padding: 5em 0;
+}
+.event-header{}
+.event-header h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5em;
+}
+.event-header span{
+    background: red;
+    width: 5em;
+    height: 3px;
+    display: block;
+    margin: 20px auto;
+}
+.image-card{
+    text-align: center;
+    padding: 30px;
+}
+
+.image-card img{
+    width: 100%;
+    box-shadow: 10px 10px 10px #0000003b;
+}
+.image-card h3{
+    padding-top: 30px;
+}
+.image-card p{
+    padding: 10px 25px;
+}
+.image-card a{
+    font-size: 18px;
+    color: #E41649;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* event section end */
+/* explore section start */
+.explore-section{
+    background-blend-mode: color;
+    background-image: url(../images/accomplishment-action-adult-adventure-372098.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 125px 0;
+    background-attachment: fixed;
+    background-color: #00000080;
+}
+.explore-content{/* justify-content: flex-end; *//* display: flex; *//* flex-wrap: wrap; */margin-left: auto;}
+.explore-content h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #fff;
+    font-weight: 700;
+}
+.explore-content span{}
+.explore-content p{
+    padding: 20px 0;
+    color: #fff;
+}
+.explore-content a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+/* explore section end */
+/* gallery section start */
+.gallery-section{
+    padding: 100px 0;
+}
+.gallery-info h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+}
+.gallery-info span{
+    background: red;
+    width: 5em;
+    height: 3px;
+    display: block;
+    margin: 30px 0;
+}
+.gallery-info p{padding-right: 72px;}
+.gallery-info a{
+    color: #e41649;
+}
+.gallery{}
+.gallery .big{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+.gallery .small{
+    width: 100%;
+    height: 200px;
+}
+.gallery img{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.gallery-left{}
+.gallery-right{}
+/* gallery section end */
+/* footer */
+footer{
+    background: #191919;
+    text-align: center;
+    padding: 40px;
+}
+.footer-content p{
+    color: #fff;
+}
+
+
